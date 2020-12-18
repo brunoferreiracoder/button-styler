@@ -30,7 +30,7 @@ This script is a simple tool to stylize the HTML button tags based on their clas
 <button class="btn btn-border-red btn-small btn-rounded">Submit</button>
 ```
 
-## This will display
+#### This will display
 ![HTML code example](example.png)
 
 ## You can add more styles if you follow the logic of the STYLE constant
