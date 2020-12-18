@@ -76,6 +76,20 @@ const STYLE = {
 ```
 .btn-small
 ```
+## You can change the font of the letter in the STYLE constant or in the CSS:
+```
+.btn {
+  font-family: FontName;
+}
+```
+**or**
+```
+const STYLE = {
+  'btn': {
+    'font-family': 'FontName'
+  }
+}
+```
 ## I picked up the colors from the following sites:
 
 _https://flatuicolors.com/palette/de_
