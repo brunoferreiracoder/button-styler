@@ -5,33 +5,19 @@ This script is a simple tool to stylize the HTML button tags based on their clas
 ## HTML code example:
 
 ```
-<button class="btn btn-green">Submit</button>
+<button class="btn btn-green btn-block">Submit</button>
 
-<button class="btn btn-green btn-rounded">Submit</button>
+<button class="btn btn-green btn-lg btn-rounded">Submit</button>
 
-<button class="btn btn-border-green btn-rounded">Submit</button>
+<button class="btn btn-outline-green">Submit</button>
 
-<button class="btn btn-green btn-small">Submit</button>
+<button class="btn btn-outline-green btn-lg btn-rounded">Submit</button>
 
-<button class="btn btn-green btn-small btn-rounded">Submit</button>
-
-<button class="btn btn-border-green btn-small btn-rounded">Submit</button>
-
-<button class="btn btn-red">Submit</button>
-
-<button class="btn btn-red btn-rounded">Submit</button>
-
-<button class="btn btn-border-red btn-rounded">Submit</button>
-
-<button class="btn btn-red btn-small">Submit</button>
-
-<button class="btn btn-red btn-small btn-rounded">Submit</button>
-
-<button class="btn btn-border-red btn-small btn-rounded">Submit</button>
+<button class="btn btn-outline-link btn-block">Submit</button>
 ```
 
 ### This will display
-![HTML code example](example.png)
+![Example](example.gif)
 
 ## You can add more styles if you follow the logic of the STYLE constant
 
@@ -52,30 +38,26 @@ const STYLE = {
 .btn-red
 .btn-orange
 .btn-blue
+.btn-link
 ```
 ### By default no background-color, but shows the background-color when mouseover.
 ```
-.btn-border-green
-.btn-border-red
-.btn-border-orange
-.btn-border-blue
-```
-### By default, no background-color and does not show the background-color when mouseover.
-```
-.btn-border-simple-green
-.btn-border-simple-red
-.btn-border-simple-orange
-.btn-border-simple-blue
+.btn-outline-green
+.btn-outline-red
+.btn-outline-orange
+.btn-outline-blue
+.btn-outline-link
 ```
 ### These can be used together with the top classes:
+
+#### Shows a button smaller than the default.
+`.btn-sm`
+#### Shows a button bigger than the default
+`.btn-lg`
+#### Shows a button that occupies 100% of his container
+`.btn-block`
 #### Shows a rounded button.
-```
-.btn-rounded
-```
-#### It shows a button smaller than the default.
-```
-.btn-small
-```
+`.btn-rounded`
 ## You can change the font of the letter in the STYLE constant or in the CSS:
 ```
 .btn {
