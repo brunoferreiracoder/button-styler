@@ -80,3 +80,5 @@ const STYLE = {
 _https://flatuicolors.com/palette/de_
 
 _https://coolors.co/ef476f-ffbc1f-05c793-139fcd-052b38_
+
+**_And, obviously, I got inspired by Bootstrap (:_**
