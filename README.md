@@ -41,7 +41,7 @@ const STYLE = {
 .btn-red
 .btn-orange
 .btn-blue
-.btn-link
+.btn-link // This does not show the background
 ```
 ### By default no background-color, but shows the background-color when mouseover.
 ```
@@ -49,7 +49,7 @@ const STYLE = {
 .btn-outline-red
 .btn-outline-orange
 .btn-outline-blue
-.btn-outline-link // This does not show the background
+.btn-outline-link
 ```
 ### These can be used together with the top classes:
 
