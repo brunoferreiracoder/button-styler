@@ -19,6 +19,9 @@ This script is a simple tool to stylize the HTML button tags based on their clas
 ### This will display
 ![Example](example.gif)
 
+### All styles and combinations
+![Styles and combinations](example.png)
+
 ## You can add more styles if you follow the logic of the STYLE constant
 
 ```
@@ -46,7 +49,7 @@ const STYLE = {
 .btn-outline-red
 .btn-outline-orange
 .btn-outline-blue
-.btn-outline-link
+.btn-outline-link // This does not show the background
 ```
 ### These can be used together with the top classes:
 
